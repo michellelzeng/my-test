@@ -18,7 +18,6 @@ public class OptionalTest {
     public void testOptional() throws Exception {
         Optional<String> nameOptional = Optional.empty();
         assertNull(Optional.empty().get());
-        assertThat("test", is("test"));
 
         Optional<String> testOptional = Optional.of("test");
         Optional<Integer> intOptional = testOptional.map(String::length);
@@ -60,6 +59,7 @@ public class OptionalTest {
         Student[] students = new Student[10];
         takePersons(students);
 
+//        Optional<Person>.of(new Person());
 
 
     }

@@ -1,3 +1,4 @@
 .idea
 my-test.iml
 target
+js/node-modules
